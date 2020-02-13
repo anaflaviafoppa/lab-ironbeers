@@ -5,3 +5,36 @@ dark-blue: #0a2c42;
 grey: #bfbfbf;
 font-family: Arial, Helvetica, sans-serif;
 */
+
+
+/*BEER IMAGE*/
+.beerImage{
+  height: 20em;
+  width: auto;
+}
+
+/*ALL BEERS LAYOUT*/
+
+.contentBeers{
+  width: 100%;
+  background-color: red;
+  
+}
+
+.allBeers{
+  max-width: 100%;
+  display: flex;
+  background-color: pink;
+  justify-content: space-around;
+}
+
+.singleBeer{
+  max-width: 25em;
+  min-width: 20em;
+  padding: 0 1em;
+}
+
+.beerPartial{
+  display: flex;
+  max-width: 25em;
+}
